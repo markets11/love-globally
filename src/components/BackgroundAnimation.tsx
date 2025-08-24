@@ -29,15 +29,6 @@ const BackgroundAnimation = () => {
         </div>
       ))}
 
-      {/* Floating Balloons */}
-      <div className="balloon balloon-1"></div>
-      <div className="balloon balloon-2"></div>
-      <div className="balloon balloon-3"></div>
-      <div className="balloon balloon-4"></div>
-      <div className="balloon balloon-5"></div>
-      <div className="balloon balloon-6"></div>
-      <div className="balloon balloon-7"></div>
-      <div className="balloon balloon-8"></div>
     </div>
   );
 };

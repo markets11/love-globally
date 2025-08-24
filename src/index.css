@@ -141,13 +141,13 @@ All colors MUST be HSL.
   .love-text {
     position: absolute;
     font-size: 1.2rem;
-    color: hsl(var(--love-pink) / 0.15);
+    color: hsl(var(--love-pink) / 0.25);
     font-weight: 500;
     animation: float-up 15s linear infinite;
   }
 
   .love-text:nth-child(odd) {
-    color: hsl(var(--heart-red) / 0.12);
+    color: hsl(var(--heart-red) / 0.22);
     animation-duration: 18s;
   }
 
