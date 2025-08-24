@@ -13,7 +13,7 @@ const PasswordPage = ({ onPasswordSuccess }: PasswordPageProps) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'moona') {
+    if (password === 'moona445') {
       sessionStorage.setItem('isAuthenticated', 'true');
       onPasswordSuccess();
     } else {
