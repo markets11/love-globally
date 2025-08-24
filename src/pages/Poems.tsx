@@ -5,60 +5,92 @@ import BackgroundAnimation from '@/components/BackgroundAnimation';
 
 const poems = [
   {
-    title: "Your Special Day",
-    content: "Like flowers bloom in spring's embrace,\nYour smile lights up this special place.\nWith joy and laughter all around,\nA birthday wish that knows no bound."
+    title: "1.",
+    content: `مجھ کو ایک پھل بھی نہ توڑنے دیتا تھا کبھی 
+اور کہتا تھا کہ اس باغ کی مالک تو ہے
+دل کے شیشے میں مجھے اس نے اتارا تو کہا
+اس کی پہلی تو نہیں اخری مالک تو ہے`
   },
   {
-    title: "Another Year of Wonder",
-    content: "Each candle on your cake today,\nRepresents a memory on display.\nOf moments shared and dreams come true,\nAnd all the love that flows to you."
+    title: "2.",
+    content: `ات ٹھہری جو عدل پر تو یہ منت یہ التجا کیا ہے
+چاند سا کہا تو کہنے لگی, چاند کہیے نا یہ چاند سا کیا ہے`
   },
   {
-    title: "Birthday Magic",
-    content: "Stars align on this perfect night,\nTo celebrate your inner light.\nMay wishes made with heart so pure,\nBring happiness that will endure."
+    title: "3.",
+    content: `عجیب شخص ہے کہ ہر بات جھوٹ لگتی ہے 
+وہ چھو کے دیکھ رہا ہے کہ گلاب اصلی ہے 
+میں کیوں دکھاوے کی خاطر اجاڑ لوں خود کو 
+
+یہ پھیکا رنگ یہ حالت خراب اصلی ہے`
   },
   {
-    title: "Celebration of You",
-    content: "In gardens where the roses grow,\nYour beauty makes the flowers glow.\nA birthday song, a sweet refrain,\nFor one who brings sunshine through rain."
+    title: "4.",
+    content: `کسی گلی میں کرائے پہ گھر لیا اس نے 
+پھر اس گلی میں گھروں کے کرائے بڑھنے لگے`
   },
   {
-    title: "Golden Moments",
-    content: "Time may pass like flowing streams,\nBut you remain the stuff of dreams.\nOn this day of birth so bright,\nYou fill our world with pure delight."
+    title: "5.",
+    content: `اتر بھی اؤ کبھی اسماں کے زینے سے 
+تمہیں خدا نے ہمارے لیے بنایا ہے 
+مہک رہی ہے زمین چاندنی کے پھولوں سے 
+خدا کسی کی محبت پہ مسکرایا ہے`
   },
   {
-    title: "Sweet Symphony",
-    content: "Like music dancing in the air,\nYour presence makes life beyond compare.\nWith birthday bells that softly chime,\nCelebrating you for all time."
+    title: "6.",
+    content: `اپنی حالت کا مجھے دھیان نہیں ہوتا ہے
+عشق سچا ہو تو اسان نہیں ہوتا ہے 
+پہلے سے بڑھ کے محبت ہے مجھے تجھ سے اب
+کیوں یقین تجھ کو میری جان نہیں ہوتا ہے`
   },
   {
-    title: "Radiant Soul",
-    content: "In morning dew and evening's glow,\nYour kindness helps our spirits grow.\nA birthday wish wrapped up in gold,\nFor a heart that's beautiful to behold."
+    title: "7.",
+    content: `اتنا پیارا ہے وہ چہرہ کے نظر پڑتے ہی 
+لوگ ہاتھوں کی لکیروں کی طرف دیکھتے ہیں
+اور جن کو اسانی سے میسر ہو دیدار تیرا 
+وہ کہاں باغ میں پھولوں کی طرف دیکھتے ہیں`
   },
   {
-    title: "Dancing Through Years",
-    content: "Through seasons that have come and gone,\nYour spirit shines from dusk till dawn.\nMay this birthday bring you cheer,\nAnd blessings throughout the coming year."
+    title: "8.",
+    content: `میں زندگی میں فقط تجھے دیکھ پایا ہوں 
+خدائے خواب میرا دیکھنا قبول کرے`
   },
   {
-    title: "Precious Gift",
-    content: "You are a gift beyond compare,\nWith gentle heart and spirit fair.\nOn this day of celebration,\nYou bring us pure elation."
+    title: "9.",
+    content: `آپ کا حکم تھا ۔۔ سرکار!! نہیں ہونے دیا 
+
+خود کو دنیا کا طلبگار نہیں ہونے دیا 
+
+ایرے غیرے کو ٹھہرنے کی اجازت نہیں دی 
+
+دل کو دل رکھا ہے بازار نہیں ہونے دیا۔۔`
   },
   {
-    title: "Butterfly Dreams",
-    content: "Like butterflies that grace the sky,\nYour dreams were always meant to fly.\nMay this birthday set you free,\nTo be all you're meant to be."
+    title: "10.",
+    content: `آپ تو آپ ہیں۔۔۔ آپ تو سب کچھ ہیں۔
+
+اور تو اور ہیں۔۔۔ اور تو کچھ بھی نہیں۔`
   },
   {
-    title: "Ocean of Love",
-    content: "Deeper than the ocean blue,\nIs all the love we have for you.\nWith birthday waves that gently flow,\nMay happiness around you grow."
+    title: "11.",
+    content: `لوگ دو آنکھوں سے دیکھتے ہیں دنیا 
+
+میں نے دو آنکھوں میں دنیا دیکھی ہے۔۔`
   },
   {
-    title: "Starlight Birthday",
-    content: "Count the stars up in the night,\nEach one reflects your inner light.\nA birthday wish on shooting star,\nYou're beautiful just as you are."
+    title: "12.",
+    content: `اس کی آنکھوں نے مجھ سے میری خودداری چھینی ورنہ 
+
+پاؤں کی ٹھوکر سے میں کر دیتا تھا دنیا ایک طرف۔۔۔`
   },
   {
-    title: "Garden of Joy",
-    content: "In life's garden, you're the rose,\nThe sweetest flower that ever grows.\nMay your birthday garden bloom,\nWith love that fills up every room."
-  },
-  {
-    title: "Forever Young",
-    content: "Though years may add their gentle touch,\nYour heart stays young and means so much.\nWith birthday candles burning bright,\nYou make our world a pure delight."
+    title: "13.",
+    content: `پھلوں بھری وہ ٹوکری سے پھل نہیں نکالتی 
+میرے لیے وہ زندگی کا پل نہیں نکالتی 
+ہزار بل نکالتی ہے اپنے بالوں سے مگر 
+ہمارے ایک مسئلے کا حل نہیں نکالتی 
+مجھے نکالنے کا اپنے دل سے ہنس کے کہتی ہے 
+مجھے رلا کے کہتی ہے کہ چل نہیں نکالتے`
   }
 ];
 
