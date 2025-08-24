@@ -61,7 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom romantic colors
+				'love-pink': 'hsl(var(--love-pink))',
+				'soft-pink': 'hsl(var(--soft-pink))',
+				'gold-accent': 'hsl(var(--gold-accent))',
+				'heart-red': 'hsl(var(--heart-red))',
+				'balloon-blue': 'hsl(var(--balloon-blue))',
+				'balloon-purple': 'hsl(var(--balloon-purple))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
